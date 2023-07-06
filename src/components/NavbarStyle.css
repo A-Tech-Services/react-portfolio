@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 20px;
+
+}
+
+.logo{
+    width: 7rem;
+}
+
+.nav-menu{
+    display: flex;
+}
+
+.nav-menu li{
+    padding: 10px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.nav-menu .nav-link{
+    text-decoration: none;
+}
