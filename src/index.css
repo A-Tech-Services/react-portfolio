@@ -33,7 +33,7 @@ h1, h4, p, a{
   color: #ffffff;
 }
 
-.btn-hover{
+.btn:hover{
   background: rgba(255, 255, 255, 0.2);
   color: #fff;
   transition: 0.3s;
