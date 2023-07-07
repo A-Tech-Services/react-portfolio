@@ -8,7 +8,8 @@ const HeroImg = () => {
   return (
     <div className="hero">
         <div className="mask">
-            {/* here is the hero background. */}
+            {/* mask container is the hero background */}
+            {/* <img src={IntroImg} className="introimage" /> */}
         </div>
         <div className="content">
             <p>Hi, I'm A Freelancer.</p>
@@ -23,4 +24,4 @@ const HeroImg = () => {
   )
 }
 
-export default HeroImg
+export default HeroImg;

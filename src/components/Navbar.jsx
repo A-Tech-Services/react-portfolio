@@ -24,7 +24,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
     window.addEventListener("scroll", changeColor);
 
     return(
-        <div className="header">
+        <div className={color? "header header-bg" : "header"}>
             <Link to="/"><img className="logo" src={logo}/></Link>
             <ul className={click? "nav-menu active" : "nav-menu"}>
                 <li><Link className="nav-link" to="/">Home</Link></li>
