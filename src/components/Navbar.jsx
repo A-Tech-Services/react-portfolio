@@ -1,19 +1,32 @@
- import "./NavbarStyle.css";
- import React from "react";
+import "./NavbarStyle.css";
+import React, { useState } from "react";
 import logo from "../images/atechlogo.png";
 
- import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
+import { FaBars, FaTimes } from "react-icons/fa";
+
 
  const Navbar = () => {
+
+    const [click, setClick] = useState(false);
+    const handleClick = () => setClick(!click);
+
     return(
         <div className="header">
             <Link to="/"><img className="logo" src={logo}/></Link>
-            <ul className="nav-menu">
+            <ul className={click? "nav-menu active" : "nav-menu"}>
                 <li><Link className="nav-link" to="/">Home</Link></li>
                 <li><Link className="nav-link" to="/project">Projects</Link></li>
                 <li><Link className="nav-link" to="/about">About</Link></li>
                 <li><Link className="nav-link" to="/contact">Contact</Link></li>
             </ul>
+            <div className="hamburger" onClick={handleClick}>
+                {
+                    click? (<FaTimes size={30} style={{color:"#fff"}}/>) :
+                    (<FaBars size={30} style={{color: "#fff"}}/>)
+                }
+                
+            </div>
         </div>
     )
  }
