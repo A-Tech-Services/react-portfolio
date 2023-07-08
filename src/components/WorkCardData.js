@@ -18,38 +18,67 @@ const WorkCardData = () => {
                     pic={Pro1}
                     title="Ecommerce Website Design"
                     text="Thriving Facebook community and 
-                            top-ranked podcast, Amy inspires a grounded tangible and self-affirming sense of 'Wow! I really can do this' for over 100,000 online entrepreneurs. Best-selling marketing courses."
+                            top-ranked podcast, Amy inspires a 
+                            grounded tangible and self-affirming 
+                            sense of 'Wow! I really can do this' 
+                            for over 100,000 online entrepreneurs. 
+                            Best-selling marketing courses."
                 />
 
                 <WorkCard 
                     pic={Pro2}
-                    title="LMS/Course"
-                    text={"this is just a web app"}
+                    title="LMS/Course Website Design"
+                    text="Thriving Facebook community and 
+                            top-ranked podcast, Amy inspires a 
+                            grounded tangible and self-affirming 
+                            sense of 'Wow! I really can do this' 
+                            for over 100,000 online entrepreneurs. 
+                            Best-selling marketing courses."
                 />
 
                 <WorkCard 
                     pic={Pro3}
-                    title={"Web Application"}
-                    text={"this is just a web app"}
+                    title="Rymo Ecommerce Design"
+                    text="Thriving Facebook community and 
+                            top-ranked podcast, Amy inspires a 
+                            grounded tangible and self-affirming 
+                            sense of 'Wow! I really can do this' 
+                            for over 100,000 online entrepreneurs. 
+                            Best-selling marketing courses."
                 />
 
-                <WorkCard 
+                {/* <WorkCard 
                     pic={Pro4}
                     title={"Web Application"}
-                    text={"this is just a web app"}
+                    text="Thriving Facebook community and 
+                            top-ranked podcast, Amy inspires a 
+                            grounded tangible and self-affirming 
+                            sense of 'Wow! I really can do this' 
+                            for over 100,000 online entrepreneurs. 
+                            Best-selling marketing courses."
                 />
 
                 <WorkCard 
                     pic={Pro5}
                     title={"Web Application"}
-                    text={"this is just a web app"}
+                    text="Thriving Facebook community and 
+                            top-ranked podcast, Amy inspires a 
+                            grounded tangible and self-affirming 
+                            sense of 'Wow! I really can do this' 
+                            for over 100,000 online entrepreneurs. 
+                            Best-selling marketing courses."
                 />
 
                 <WorkCard 
                     pic={Pro6}
                     title={"Web Application"}
-                    text={"this is just a web app"}
-                />
+                    text="Thriving Facebook community and 
+                            top-ranked podcast, Amy inspires a 
+                            grounded tangible and self-affirming 
+                            sense of 'Wow! I really can do this' 
+                            for over 100,000 online entrepreneurs. 
+                            Best-selling marketing courses."
+                /> */}
             </div>
     </div>
   )
