@@ -1,4 +1,4 @@
-import "./FooterStyle"
+import "./FooterStyle.css";
 
 import React from "react";
 
@@ -36,7 +36,7 @@ const Footer = () => {
                                 size={20} 
                                 style={{color: "#fff", marginRight: "2rem"}}
                             /> 
-                            oluwapelumiabiodun45@gmail.com
+                            atech45@gmail.com
                         </h4>
                     </div>
                 </div>

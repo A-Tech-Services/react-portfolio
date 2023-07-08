@@ -1,9 +1,14 @@
 import React from "react";
+import Navbar from "../components/Navbar";
+import ProjectHeroImg  from "../components/ProjectHeroImg";
+import Footer from "../components/Footer";
 
 const Project = () => {
     return(
         <div>
-            <h1>Welcome to the Project Page!</h1>
+            <Navbar />
+            <ProjectHeroImg />
+            <Footer />
         </div>
     )
 }
