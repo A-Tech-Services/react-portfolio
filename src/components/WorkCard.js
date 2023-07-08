@@ -1,0 +1,57 @@
+import "./WorkCard.css";
+import React from 'react';
+import Pro1 from "../images/project1.png";
+import Pro2 from "../images/project2.png";
+import Pro3 from "../images/project3.png";
+import Pro4 from "../images/project4.png";
+import Pro5 from "../images/react1.jpg";
+import Pro6 from "../images/react2.webp";
+import WorkCardData from "./WorkCardData";
+
+
+const WorkCard = () => {
+  return (
+    <div className="work-container">
+        <h1 className="project-heading">Projects</h1>
+            <div className="project-container">
+                <WorkCardData 
+                    pic={Pro1}
+                    title={"Web Application"}
+                    text={"this is just a web app"}
+                />
+
+                <WorkCardData 
+                    pic={Pro2}
+                    title={"Web Application"}
+                    text={"this is just a web app"}
+                />
+
+                <WorkCardData 
+                    pic={Pro3}
+                    title={"Web Application"}
+                    text={"this is just a web app"}
+                />
+
+                <WorkCardData 
+                    pic={Pro4}
+                    title={"Web Application"}
+                    text={"this is just a web app"}
+                />
+
+                <WorkCardData 
+                    pic={Pro5}
+                    title={"Web Application"}
+                    text={"this is just a web app"}
+                />
+
+                <WorkCardData 
+                    pic={Pro6}
+                    title={"Web Application"}
+                    text={"this is just a web app"}
+                />
+            </div>
+    </div>
+  )
+}
+
+export default WorkCard

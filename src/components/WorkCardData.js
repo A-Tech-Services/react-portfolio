@@ -1,0 +1,20 @@
+import React from 'react';
+import { NavLink } from "react-router-dom";
+
+const WorkCardData = (props) => {
+  return (
+    <div className="project-card">
+        <img src={props.pic} alt="project1"/>
+        <h2 className="project-title">{props.title}</h2>
+        <div className="pro-details">
+            <p>{props.text}</p>
+            <div className="pro-btns">
+                <NavLink className="btn" to="url.com">View</NavLink>
+                <NavLink className="btn" to="url.com">Source</NavLink>
+            </div>
+        </div>
+    </div>
+  )
+}
+
+export default WorkCardData;

@@ -45,7 +45,7 @@
     padding: 1rem 0;
 }
 
-.btn.purchase{
+.card .btn{
     display: block;
     width: 80%;
     margin: 2rem auto;
@@ -53,7 +53,7 @@
 
 @media screen and (max-width: 740px) {
     .card-container{
-        max-width: 90px;
+        max-width: 90%;
         grid-template-columns: 1fr;
     }
 }
