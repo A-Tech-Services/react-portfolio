@@ -1,57 +1,20 @@
-import "./WorkCard.css";
 import React from 'react';
-import Pro1 from "../images/project1.png";
-import Pro2 from "../images/project2.png";
-import Pro3 from "../images/project3.png";
-import Pro4 from "../images/project4.png";
-import Pro5 from "../images/react1.jpg";
-import Pro6 from "../images/react2.webp";
-import WorkCardData from "./WorkCardData";
+import { NavLink } from "react-router-dom";
 
-
-const WorkCard = () => {
+const WorkCard = (props) => {
   return (
-    <div className="work-container">
-        <h1 className="project-heading">Projects</h1>
-            <div className="project-container">
-                <WorkCardData 
-                    pic={Pro1}
-                    title={"Web Application"}
-                    text={"this is just a web app"}
-                />
-
-                <WorkCardData 
-                    pic={Pro2}
-                    title={"Web Application"}
-                    text={"this is just a web app"}
-                />
-
-                <WorkCardData 
-                    pic={Pro3}
-                    title={"Web Application"}
-                    text={"this is just a web app"}
-                />
-
-                <WorkCardData 
-                    pic={Pro4}
-                    title={"Web Application"}
-                    text={"this is just a web app"}
-                />
-
-                <WorkCardData 
-                    pic={Pro5}
-                    title={"Web Application"}
-                    text={"this is just a web app"}
-                />
-
-                <WorkCardData 
-                    pic={Pro6}
-                    title={"Web Application"}
-                    text={"this is just a web app"}
-                />
+    <div className="project-card">
+        <img src={props.pic} alt="project1"/>
+        <h2 className="project-title">{props.title}</h2>
+        <div className="pro-details">
+            <p>{props.text}</p>
+            <div className="pro-btns">
+                <NavLink className="btn" to="url.com">View</NavLink>
+                <NavLink className="btn" to="url.com">Source</NavLink>
             </div>
+        </div>
     </div>
   )
 }
 
-export default WorkCard
+export default WorkCard;
