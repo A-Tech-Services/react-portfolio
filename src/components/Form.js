@@ -9,9 +9,9 @@ const Form = () =>{
 
     // notification box.
     const notify = () =>{
-        toast.success("✅ Message Sent Successfully!", {
+        toast.success("Message Sent Successfully!", {
             position: "top-center",
-            autoClose: 5000,
+            autoClose: 4000,
             hideProgressBar: false,
             closeOnClick: true,
             pauseOnHover: true,
@@ -32,7 +32,7 @@ const Form = () =>{
         emailjs.sendForm(ServiceID, TemplateID, form.current, PublicID)
         .then((result) => {
             console.log(result.text);
-            window.location = "https://atechreactfolio.netlify.app/contact";
+            window.location = "/contact";
         }, (error) => {
             console.log(error.text);
         });
