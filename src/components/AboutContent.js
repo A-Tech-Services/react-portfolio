@@ -9,7 +9,7 @@ const AboutContent = () => {
     <div className="about">
         <div className="left">
             <h1>Who am I?</h1>
-            <p>I'm a react front-end developer. I create 
+            <p>I'm Abiodun Oluwapelumi Amos, a react front-end developer. I create 
                 responsive secure websites and digital products for my clients.
             </p>
 
