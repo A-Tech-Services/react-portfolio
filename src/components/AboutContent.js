@@ -9,8 +9,10 @@ const AboutContent = () => {
     <div className="about">
         <div className="left">
             <h1>Who am I?</h1>
-            <p>I'm Abiodun Oluwapelumi Amos, a react front-end developer. I create 
-                responsive secure websites and digital products for my clients.
+            <p> I am passionate about creating exceptional user experiences 
+                through innovative and visually captivating websites and applications. 
+                With a deep understanding of front-end technologies such as HTML, CSS, JavaScript,
+                and React. I specialize in translating design concepts into seamless and interactive interfaces.
             </p>
 
             <Link to="/contact"><button className="btn">Contact</button></Link>
