@@ -14,7 +14,7 @@ const WorkCardData = () => {
             <div className="project-container">
                 <WorkCard 
                     pic={Pro1}
-                    title="Ecommerce Website Design"
+                    title="Travel Web Page"
                     text="Thriving Facebook community and 
                             top-ranked podcast, Amy inspires a 
                             grounded tangible and self-affirming 
@@ -34,11 +34,13 @@ const WorkCardData = () => {
                             sense of 'Wow! I really can do this' 
                             for over 100,000 online entrepreneurs. 
                             Best-selling marketing courses."
+                    view = "/"
+                    source = "/"
                 />
 
                 <WorkCard 
                     pic={Pro3}
-                    title="Rymo Ecommerce Design"
+                    title="My Portfolio Design"
                     text="Thriving Facebook community and 
                             top-ranked podcast, Amy inspires a 
                             grounded tangible and self-affirming 
