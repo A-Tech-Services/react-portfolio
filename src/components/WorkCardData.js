@@ -21,6 +21,8 @@ const WorkCardData = () => {
                             sense of 'Wow! I really can do this' 
                             for over 100,000 online entrepreneurs. 
                             Best-selling marketing courses."
+                    view = "https://atechtrippy.netlify.app/"
+                    source = "https://github.com/A-Tech-Services/Travel-Webpage.git"
                 />
 
                 <WorkCard 
@@ -43,6 +45,8 @@ const WorkCardData = () => {
                             sense of 'Wow! I really can do this' 
                             for over 100,000 online entrepreneurs. 
                             Best-selling marketing courses."
+                    view = "https://atechreactfolio.netlify.app/"
+                    source = "https://github.com/A-Tech-Services/react-portfolio.git"
                 />
 
                 {/* <WorkCard 
