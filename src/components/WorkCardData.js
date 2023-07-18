@@ -15,52 +15,29 @@ const WorkCardData = () => {
                 <WorkCard 
                     pic={Pro1}
                     title="Travel Web Page"
-                    text="Thriving Facebook community and 
-                            top-ranked podcast, Amy inspires a 
-                            grounded tangible and self-affirming 
-                            sense of 'Wow! I really can do this' 
-                            for over 100,000 online entrepreneurs. 
-                            Best-selling marketing courses."
+                    text="Embark on unforgettable adventures and explore the world's 
+                        wonders with our comprehensive travel guides and curated itineraries."
                     view = "https://atechtrippy.netlify.app/"
                     source = "https://github.com/A-Tech-Services/Travel-Webpage.git"
                 />
 
                 <WorkCard 
                     pic={Pro2}
-                    title="LMS/Course Website Design"
-                    text="Thriving Facebook community and 
-                            top-ranked podcast, Amy inspires a 
-                            grounded tangible and self-affirming 
-                            sense of 'Wow! I really can do this' 
-                            for over 100,000 online entrepreneurs. 
-                            Best-selling marketing courses."
-                    view = "/"
-                    source = "/"
+                    title="SK Home Builder"
+                    text="Discover endless possibilities to design and build your dream 
+                        home with our expert home decorator and builder services."
+                    view = "https://atechbuilder.netlify.app/"
+                    source = "https://github.com/A-Tech-Services/SKbuilder.git"
                 />
 
                 <WorkCard 
                     pic={Pro3}
                     title="My Portfolio Design"
-                    text="Thriving Facebook community and 
-                            top-ranked podcast, Amy inspires a 
-                            grounded tangible and self-affirming 
-                            sense of 'Wow! I really can do this' 
-                            for over 100,000 online entrepreneurs. 
-                            Best-selling marketing courses."
+                    text="Experience my creative journey through a captivating portfolio 
+                        showcasing my diverse skills, expertise, and passion for innovative design."
                     view = "https://atechreactfolio.netlify.app/"
                     source = "https://github.com/A-Tech-Services/react-portfolio.git"
                 />
-
-                {/* <WorkCard 
-                    pic={Pro4}
-                    title={"Web Application"}
-                    text="Thriving Facebook community and 
-                            top-ranked podcast, Amy inspires a 
-                            grounded tangible and self-affirming 
-                            sense of 'Wow! I really can do this' 
-                            for over 100,000 online entrepreneurs. 
-                            Best-selling marketing courses."
-                />*/}
             </div>
     </div>
   )
